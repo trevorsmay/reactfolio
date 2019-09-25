@@ -1,0 +1,19 @@
+.carousel {
+    color: black;
+    margin-top: 5rem;
+    max-width: 100%;
+}
+
+.box {
+    align-content: center;
+}
+
+.project {
+    color: black;
+}
+
+img {
+    height: 25rem;
+    width: 40rem;
+    margin-top: 25px;
+}
