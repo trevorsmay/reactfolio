@@ -1,16 +1,19 @@
 import React from "react";
 import "./style.css";
 
-import {Jumbotron } from "reactstrap";
+import { Jumbotron, Container } from "reactstrap";
 
 
-function Banner (props){
+function Banner (){
     return(
-        <Jumbotron className = "title"><strong>Web Development and Design</strong>
+       <Jumbotron fluid>
+           <Container fluid>
+        <strong>Web Development and Design</strong>
         <h3>By Trevor May</h3>
         <i class="fas fa-code"></i>
-        <div style={{ backgroundImage: `url(${"trees.jpeg"})` }}></div>
+        </Container>
         </Jumbotron>
+        
     )
 }
 export default Banner;

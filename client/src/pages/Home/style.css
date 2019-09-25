@@ -1,5 +1,25 @@
+
+
+/* .Banner {
+    opacity: .9;
+} */
+
 .Home{
-    background-color: #eee;
-    background-repeat: no-repeat;
     font-family: 'Bitter', serif;
+    align-content: center;
+    margin-top: 5rem;
 }
+
+.Main {
+    color: #eee;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba((255,0,0,0.1), green, blue, alpha);
+    padding-top: 15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
