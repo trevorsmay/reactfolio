@@ -44,11 +44,11 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/Contact"><h4>Contact</h4></NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                   <NavLink href="/Gallery"><h4>Gallery</h4></NavLink> 
-              </NavItem>
+              </NavItem> */}
               <NavItem>
-                  <NavLink href="/Projects"><h4>Projects</h4></NavLink> 
+                  <NavLink href="/Project"><h4>Projects</h4></NavLink> 
               </NavItem>
               <NavItem>
                   <NavLink href="/Resume"><h4>Resume</h4></NavLink> 

@@ -5,11 +5,9 @@
     font-family: 'Bitter', serif;
 }
 
-.title {
-    margin-bottom: 40px;
+.Container{
+    opacity: .9;
 }
 
-h1 {
-    text-align: center;
-}
+
 

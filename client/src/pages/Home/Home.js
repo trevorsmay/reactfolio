@@ -1,53 +1,39 @@
 import React, { Component } from "react";
-import { Button, Container } from "reactstrap";
-import API from "../../utils/API";
+// import { Container } from "reactstrap";
 import "./style.css";
-import Banner from "../../components/Banner";
-import DinnerBanner from "../../components/DinnerBanner";
-import Footer from "../../components/Footer";
+// import Banner from "../../components/Banner";
+// import TopNav from "../../components/TopNav";
+import { Button } from "reactstrap";
 // import { ParallaxBanner } from "react-scroll-parallax";
-import MiddleBanner from "../../components/MiddleBanner";
+// import MiddleBanner from "../../components/MiddleBanner";
+
 // import CardTwo from "../../components/CardTwo";
 
 
 class Home extends Component {
 
-  state = {
-    loggedIn: false,
-    joke: ""
-  };
-
-  componentDidMount() {
-    this.loggedIn();
-  }
-
- 
-
-  loggedIn = () => {
-    API.isLoggedIn().then(user => {
-      if (user.data.loggedIn) {
-        this.setState({
-          loggedIn: true
-        });
-      }
-    }).catch(err => {
-      console.log(err);
-    });
-  }
 
   render() {
     return (
+      <>
+      <div className="Main">
+      <h1>Web Development and Design</h1>
+      <br></br>
+      <h1>By Trevor May</h1>
+      <br></br>
+      <Button color="secondary" size="lg" href="/About">Click Me!</Button>
+      </div>
+      {/* <TopNav />
       <div className = "Home">
-      <Container>
-      <Banner />
+      <Banner /> 
+      <Parallax />
       <MiddleBanner />
       <DinnerBanner />
-      </Container>
-      
-      <Footer />
-      </div>
-    );
+      </div> */}
+      </>
+    )
   }
+    
 }
 
 export default Home;

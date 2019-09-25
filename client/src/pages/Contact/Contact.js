@@ -1,14 +1,16 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import Footer from "../../components/Footer";
 import ContactTron from "../../components/ContactTron";
 import "./style.css";
+import TopNav from "../../components/TopNav";
 
 
-export default class Example extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
       <>
+       <TopNav />   
       <Container>
         <ContactTron />
       <Form className="form">
