@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from "../../utils/API";
 import "./style.css";
 import {
     Collapse,
@@ -41,9 +40,9 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/About"><h4>About</h4></NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/Contact"><h4>Contact</h4></NavLink>
-              </NavItem>
+              </NavItem> */}
               {/* <NavItem>
                   <NavLink href="/Gallery"><h4>Gallery</h4></NavLink> 
               </NavItem> */}

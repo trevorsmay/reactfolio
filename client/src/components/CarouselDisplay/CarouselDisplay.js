@@ -130,7 +130,12 @@ const items = [
   {
     src: 'https://www.thesprucepets.com/thmb/zGatfI2qi21xFeHz70GhX8Tm7z4=/4185x3139/smart/filters:no_upscale()/mongrel-with-lead-in-mouth-200164811-001-585d91683df78ce2c32342ff.jpg',
     altText: 'Dog Time',
-    caption: 'Coming Soon: Dog Time!'
+    caption: 'Coming Soon: Dog Time'
+  },
+  {
+    src: "https://lh5.googleusercontent.com/p/AF1QipNxz5kfJZRL7_unH4AOgGiB3Wzy3_m5MeOff0F9=w1200-h642-p-k-no",
+    altText: "S-Wings Auto",
+    caption: "Coming Soon: S-Wings Auto"
   }
 ];
 
@@ -181,7 +186,7 @@ class CarouselDisplay extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption  captionHeader={item.caption} />
         </CarouselItem>
       );
     });

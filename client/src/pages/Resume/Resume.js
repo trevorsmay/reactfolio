@@ -39,7 +39,8 @@ class Resume extends Component {
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
+                 MSUD B.A. Political Science and History
+                 DU Coding Bootcamp
                </div>
             </div>
          </div>
@@ -53,7 +54,9 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          <p>Consulting and Freelance Web Design</p>
+          <p>Comcast Business Account Manager</p>
+      
         </div>
     </div>
 

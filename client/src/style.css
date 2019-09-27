@@ -27,3 +27,9 @@ html, body {
         text-align: center;
     }
 
+    .container {
+        background-color: #e6f0ff;
+        margin-top: 80px;
+        padding: 20px;
+    }
+

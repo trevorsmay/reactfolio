@@ -21,7 +21,7 @@ class Home extends Component {
       <br></br>
       <h1>By Trevor May</h1>
       <br></br>
-      <Button color="secondary" size="lg" href="/About">Click Me!</Button>
+      <Button color="primary" size="lg" href="/About">Enter!</Button>
       </div>
       {/* <TopNav />
       <div className = "Home">
