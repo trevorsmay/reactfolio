@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3001;
-const colors = require("colors");
+// const colors = require("colors");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const session = require("express-session");
@@ -22,8 +22,8 @@ app.use(session({
     saveUninitialized: true,
     // cookie: { secure: true }
 }));
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 
 
