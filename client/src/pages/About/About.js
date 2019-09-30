@@ -1,7 +1,7 @@
 import { Container, Media } from 'reactstrap';
 import "./style.css";
 import Footer from "../../components/Footer";
-import React, { Component } from 'react';
+import React from 'react';
 import TopNav from "../../components/TopNav";
 
 
