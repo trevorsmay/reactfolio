@@ -14,16 +14,22 @@ html, body {
     margin-top: 75px;
     text-align: center;
 }
-img {
-        height: 250px;
-        width: 300px;
+/* img {
+        height: 25rem;
+        width: 40rem;
         margin-top: 25px;
-    }
+    } */
 
 .footer {
         position: fixed;
         left: 0;
         bottom: 0;
         text-align: center;
+    }
+
+    .container {
+        background-color: #e6f0ff;
+        margin-top: 80px;
+        padding: 20px;
     }
 

@@ -1,4 +1,9 @@
-/* h2 {
-    color: #eee;
-} */
+.profile-pic {
+        height: 10rem;
+        width: 10rem;
+}
 
+.trevor {
+        height: 15rem;
+        width: 15rem;
+}
