@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import { Container } from "reactstrap";
+// import { Container } from "reactstrap";
 // import CarouselDisplay from "../../components/CarouselDisplay";
 import CarouselDisplay from "../../components/CarouselDisplay";
 import Footer from "../../components/Footer";
