@@ -2,10 +2,13 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3001;
 // const colors = require("colors");
-const mongoose = require("mongoose");
+
+// const mongoose = require("mongoose");
+
+
 const routes = require("./routes");
 const session = require("express-session");
-const passport = require("passport");
+// const passport = require("passport");
 const logger = require("morgan");
 const flash = require('connect-flash');
 
@@ -34,14 +37,14 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactfolio", { useNewUrlParser: true }, function(err) {
-    if (err) throw err;
-    console.log(`mongoose connection successful`.yellow);
-    app.listen(PORT, (err)=> {
-        if (err) throw err;
-        console.log(`connected on port ${PORT}`.cyan)
-    });
-});
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactfolio", { useNewUrlParser: true }, function(err) {
+//     if (err) throw err;
+//     console.log(`mongoose connection successful`.yellow);
+//     app.listen(PORT, (err)=> {
+//         if (err) throw err;
+//         console.log(`connected on port ${PORT}`.cyan)
+//     });
+// });
 
 
 
