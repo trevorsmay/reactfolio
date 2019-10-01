@@ -33,6 +33,8 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "/client/build/index.html"))
 });
 
+app.use("/App",router);
+
 app.listen(PORT, function(){
     console.log(`🌎 ==> server now on port ${PORT}!`)
 })

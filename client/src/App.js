@@ -27,11 +27,11 @@ render() {
           <div>
             <Switch>
               <Route exact path="/" component={Home}/>
-              <Route exact path="/About" component={About} />
+              <Route exact path="/about" component={About} />
               {/* <Route exact path="/Contact" component={Contact} data={this.state.contact} /> */}
               {/* <Route exact path="/Gallery" component={Gallery} data={this.state.resumeData.gallery} /> */}
-              <Route exact path ="/Project" component={Project}/>
-              <Route exact path="/Resume" component={Resume}  />
+              <Route exact path="/project" component={Project}/>
+              <Route exact path="/resume" component={Resume}  />
 
               <Route component= {NoMatch} />
             </Switch>
