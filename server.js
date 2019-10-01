@@ -3,6 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const logger = require("morgan");
 const flash = require('connect-flash');
+const router = express.Router();
 // const colors = require("colors");
 // const mongoose = require("mongoose");
 // const routes = require("./routes");
