@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import './style.css';
-import {Card, CardImg, CardBody, CardText} from "reactstrap";
-// import "./assets/trees.png";
+// import React, { Component } from "react";
+// import './style.css';
+// import {Card, CardImg, CardBody, CardText} from "reactstrap";
+// // import "./assets/trees.png";
 
 
 // import image from "..pages/assets/trees.jpg";
@@ -47,4 +47,4 @@ import {Card, CardImg, CardBody, CardText} from "reactstrap";
 //     )
 // };
 
-export default Card;
+// export default Card;

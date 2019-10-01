@@ -10,7 +10,7 @@ function Banner (){
            <Container fluid>
         <strong>Web Development and Design</strong>
         <h3>By Trevor May</h3>
-        <i class="fas fa-code"></i>
+        <i className="fas fa-code"></i>
         </Container>
         </Jumbotron>
         
