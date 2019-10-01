@@ -8,6 +8,7 @@ const flash = require('connect-flash');
 // const routes = require("./routes");
 // const session = require("express-session");
 // const passport = require("passport");
+const router = express.Router();
 
 
 app.use(express.urlencoded({ extended: true }));
@@ -33,7 +34,7 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "/client/build/index.html"))
 });
 
-app.use("/App",router);
+app.use("/App", router);
 
 app.listen(PORT, function(){
     console.log(`🌎 ==> server now on port ${PORT}!`)
